@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="514d88c8-ad73-4513-aff4-952ad4380d37">
+  <producedTypes>
+    <objectType typeId="c84eb16d-6944-4570-aab2-64af98d66eff" valueTypeId="7119b97f-6be7-4a43-a4d3-9c143bddcaa3"/>
+    <managerType typeId="80ccfee2-f229-4940-8327-593721ac2760" valueTypeId="8a6a25f8-e701-4c5a-8711-2be078cb5506"/>
+  </producedTypes>
+  <name>ВКМ_РасчетыССотрудниками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчеты с сотрудниками</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВКМ_РасчетыССотрудниками.Template.Макет</mainDataCompositionSchema>
+  <tabularSections uuid="6424a0d9-f100-4e66-9034-5dae234aec7d">
+    <producedTypes>
+      <objectType typeId="f07442ce-6167-4877-83ed-32cc9f2c33cb" valueTypeId="e543869a-ea4d-43c0-99a6-80c54e4e29ff"/>
+      <rowType typeId="27fadd00-1be1-40d5-a763-0b4d49ff3c7c" valueTypeId="8dfc5a34-427a-4f35-a27e-ce455252ee80"/>
+    </producedTypes>
+    <name>Расчеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты</value>
+    </synonym>
+    <attributes uuid="8e9bfb0e-9c31-4742-ad1b-04ee0b0262d5">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="868f8c1d-d025-4180-8bdf-5b99f9de6c4e">
+      <name>СуммаНачисления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма начисления</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1172043f-9e20-4b5e-97b8-261a08acf5a6">
+      <name>СуммаВыплаты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма выплаты</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="780b8315-ba6f-4f9b-8741-a75debb75ab4">
+      <name>ЗадолженостьНаНачало</name>
+      <synonym>
+        <key>ru</key>
+        <value>Задолженость на начало</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8bf2e751-39a1-4155-992d-cd7b59b03cbc">
+      <name>ЗадолженностьНаКонец</name>
+      <synonym>
+        <key>ru</key>
+        <value>Задолженность на конец</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <templates uuid="d02566ba-cf7c-406b-bc04-2f2ee03cac08">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

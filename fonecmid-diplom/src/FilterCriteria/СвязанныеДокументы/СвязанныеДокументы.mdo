@@ -12,6 +12,7 @@
   <type>
     <types>DocumentRef.ЗаказПокупателя</types>
     <types>DocumentRef.РеализацияТоваровУслуг</types>
+    <types>DocumentRef.ВКМ_ОбслуживаниеКлиентов</types>
     <types>DocumentRef.ОплатаОтПокупателя</types>
   </type>
   <content>Document.РеализацияТоваровУслуг.Attribute.Основание</content>

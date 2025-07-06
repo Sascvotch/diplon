@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f6b05d6-5dfe-4ccb-b06f-0c0720017998">
+  <name>ВКМ_ДобавленныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавленные объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ВКМ_ОбслуживаниеКлиентов</content>
+  <content>Catalog.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</content>
+  <content>Constant.ВКМ_ТокенУправленияТБ</content>
+  <content>Constant.ВКМ_ИдентификаторГруппы</content>
+  <content>ScheduledJob.ВКМ_ОтправкаУведомленийТБ</content>
+  <content>CommonModule.ВКМ_Телеграм</content>
+  <content>Catalog.ВКМ_УведомленияТБ</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
+  <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
+  <content>Document.ВКМ_НачисленияЗарплаты</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафиковРаботы</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>CommonModule.ВКМ_РаботаСОтпускамиВызовСервера</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Catalog.ВКМ_ГрафикиРаботы</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>AccumulationRegister.ВКМ_Отпуска</content>
+  <content>Report.ВКМ_АнализВыставленныхСчетов</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживаниеКлиентов</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеКадровыхДокументов</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеДокументовРеализация</content>
+  <content>Role.ВКМ_ДобавленныеОбъекты</content>
+  <content>Role.БазовыеПраваБСП</content>
+  <subsystems>ОбслуживаниеКлиентов</subsystems>
+  <subsystems>ОбъектыНеобходимыеДляРаботы</subsystems>
+</mdclass:Subsystem>

@@ -687,6 +687,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.ВКМ_ДобавленныеОбъекты</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.РасширенныйВводКонтактнойИнформации</name>
 		<right>
 			<name>Use</name>
