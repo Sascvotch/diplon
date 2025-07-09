@@ -13,5 +13,7 @@
   <content>Catalog.Организации</content>
   <content>Catalog.Пользователи</content>
   <content>Document.РеализацияТоваровУслуг</content>
+  <content>InformationRegister.ПраваРолей</content>
+  <content>Role.ВКМ_ДобавленныеОбъекты</content>
   <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты</parentSubsystem>
 </mdclass:Subsystem>
