@@ -19,7 +19,7 @@
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>ООО Нетология</vendor>
-  <version>1.0.1.7</version>
+  <version>1.0.1.9</version>
   <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
   <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
   <defaultReportVariantForm>CommonForm.ФормаВариантаОтчета</defaultReportVariantForm>
