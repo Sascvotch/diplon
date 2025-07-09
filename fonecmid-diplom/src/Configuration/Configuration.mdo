@@ -19,7 +19,7 @@
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>ООО Нетология</vendor>
-  <version>1.0.1.3</version>
+  <version>1.0.1.7</version>
   <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
   <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
   <defaultReportVariantForm>CommonForm.ФормаВариантаОтчета</defaultReportVariantForm>
@@ -624,10 +624,16 @@
   <roles>Role.ЧтениеДополнительныхСведений</roles>
   <roles>Role.ЧтениеНСИ</roles>
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
-  <roles>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживаниеКлиентов</roles>
+  <roles>Role.ВКМ_ИзменениеДокументовОбслуживаниеКлиентов</roles>
   <roles>Role.ВКМ_ДобавлениеИзменениеКадровыхДокументов</roles>
   <roles>Role.ВКМ_ДобавлениеИзменениеДокументовРеализация</roles>
   <roles>Role.ВКМ_ДобавленныеОбъекты</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеОбслуживаниеКлиентовПрисоединенныеФайлы</roles>
+  <roles>Role.ВКМ_ПросмотрОбслуживаниеПрисоединенныеФайлы</roles>
+  <roles>Role.ВКМ_ОтчетПоВыработкеСпециалистов</roles>
+  <roles>Role.ВКМ_ОтчетПоВыставленнымАктам</roles>
+  <roles>Role.ВКМ_ОтчетЗарплатаОтпуска</roles>
+  <roles>Role.ВКМ_ДобавлениеДокументовОбслуживаниеКлиентов</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьНастройкуМакетаOfficeOpen</commonTemplates>
