@@ -4,7 +4,30 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Report.ВКМ_ВыработкаСпециалистов</name>
+		<name>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.ВКМ_РасчетыССотрудниками</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>
@@ -15,36 +38,13 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>TotalsControl</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Configuration.УправлениеITФирмой</name>
-		<right>
-			<name>EventLog</name>
-			<value>true</value>
-		</right>
 		<right>
 			<name>ThinClient</name>
 			<value>true</value>
 		</right>
 		<right>
 			<name>WebClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>TechnicalSpecialistMode</name>
 			<value>true</value>
 		</right>
 		<right>

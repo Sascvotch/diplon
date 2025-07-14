@@ -44,6 +44,7 @@
   <content>Role.ВКМ_ДобавлениеИзменениеДокументовРеализация</content>
   <content>Role.ВКМ_ДобавленныеОбъекты</content>
   <content>Role.БазовыеПраваБСП</content>
+  <content>Role.ВКМ_ОтчетРасчетыССотрудниками</content>
   <subsystems>ОбслуживаниеКлиентов</subsystems>
   <subsystems>ОбъектыНеобходимыеДляРаботы</subsystems>
 </mdclass:Subsystem>
