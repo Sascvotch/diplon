@@ -45,6 +45,10 @@
           <name>ДиаграммаГантаТаблицаТочка</name>
           <id>22</id>
           <displayImportance>High</displayImportance>
+          <title>
+            <key>ru</key>
+            <value>Сотрудник</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
