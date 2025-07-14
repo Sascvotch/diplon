@@ -42,5 +42,12 @@
       </code>
       <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
     </items>
+    <items id="5c810af5-7d77-4236-b6e6-cfb8c86ab986">
+      <name>ПроцентОтРабот</name>
+      <description>Процент от работ</description>
+      <code xsi:type="core:StringValue">
+        <value>2</value>
+      </code>
+    </items>
   </predefined>
 </mdclass:ChartOfCalculationTypes>
