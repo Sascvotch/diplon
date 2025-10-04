@@ -973,6 +973,29 @@
 		</right>
 	</object>
 	<object>
+		<name>AccumulationRegister.ВКМ_РеализацияРаботыНоменклатураСпециалиста</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Организации.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</name>
 		<right>
 			<name>Edit</name>

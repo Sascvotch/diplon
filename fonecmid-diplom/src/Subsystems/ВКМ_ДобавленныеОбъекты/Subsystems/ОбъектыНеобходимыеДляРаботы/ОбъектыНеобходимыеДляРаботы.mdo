@@ -15,5 +15,6 @@
   <content>Document.РеализацияТоваровУслуг</content>
   <content>InformationRegister.ПраваРолей</content>
   <content>Role.ВКМ_ДобавленныеОбъекты</content>
+  <content>AccumulationRegister.ВКМ_РеализацияРаботыНоменклатураСпециалиста</content>
   <parentSubsystem>Subsystem.ВКМ_ДобавленныеОбъекты</parentSubsystem>
 </mdclass:Subsystem>

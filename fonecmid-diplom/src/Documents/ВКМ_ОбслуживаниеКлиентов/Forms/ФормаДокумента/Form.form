@@ -805,6 +805,12 @@
           <common>true</common>
         </userVisible>
       </cmiFragmentRecord>
+      <cmiFragmentRecord>
+        <command>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.StandardCommand.OpenByRecorder</command>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </cmiFragmentRecord>
     </navigationPanel>
     <commandBar/>
   </commandInterface>

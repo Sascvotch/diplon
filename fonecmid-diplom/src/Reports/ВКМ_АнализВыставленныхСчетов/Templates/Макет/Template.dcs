@@ -25,41 +25,41 @@
 			<field>СуммаКОплате</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>СуммаДокумента</dataPath>
-			<field>СуммаДокумента</field>
+			<dataPath>ФактическаяСумма</dataPath>
+			<field>ФактическаяСумма</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сумма документа</v8:content>
+					<v8:content>Фактическая сумма</v8:content>
 				</v8:item>
 			</title>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	СУММА(РеализацияТоваровУслуг.СуммаДокумента) КАК СуммаДокумента,
-	РеализацияТоваровУслуг.Договор
+	ВКМ_РеализацияРаботыНоменклатураСпециалистаОбороты.Договор КАК Договор,
+	СУММА(ВКМ_РеализацияРаботыНоменклатураСпециалистаОбороты.СуммаОборот) КАК Сумма
 ПОМЕСТИТЬ ВТ_Реализации
 ИЗ
-	Документ.РеализацияТоваровУслуг КАК РеализацияТоваровУслуг
-ГДЕ
-	РеализацияТоваровУслуг.Дата МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания
+	РегистрНакопления.ВКМ_РеализацияРаботыНоменклатураСпециалиста.Обороты(&amp;НачалоПериода, &amp;КонецПериода,,) КАК
+		ВКМ_РеализацияРаботыНоменклатураСпециалистаОбороты
 СГРУППИРОВАТЬ ПО
-	РеализацияТоваровУслуг.Договор
+	ВКМ_РеализацияРаботыНоменклатураСпециалистаОбороты.Договор
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
 ВЫБРАТЬ
-	ВКМ_ВыполненныеКлиентуРаботыОбороты.Клиент,
-	ВКМ_ВыполненныеКлиентуРаботыОбороты.Договор,
+	ВКМ_ВыполненныеКлиентуРаботыОбороты.Клиент КАК Клиент,
+	ВКМ_ВыполненныеКлиентуРаботыОбороты.Договор КАК Договор,
 	СУММА(ВКМ_ВыполненныеКлиентуРаботыОбороты.СуммаКОплатеОборот) КАК СуммаКОплате,
-	СУММА(ВТ_Реализации.СуммаДокумента) КАК СуммаДокумента
+	СУММА(ВТ_Реализации.Сумма) КАК ФактическаяСумма
 ИЗ
 	РегистрНакопления.ВКМ_ВыполненныеКлиентуРаботы.Обороты(,,,) КАК ВКМ_ВыполненныеКлиентуРаботыОбороты
 		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_Реализации КАК ВТ_Реализации
 		ПО ВКМ_ВыполненныеКлиентуРаботыОбороты.Договор = ВТ_Реализации.Договор
 СГРУППИРОВАТЬ ПО
 	ВКМ_ВыполненныеКлиентуРаботыОбороты.Клиент,
-	ВКМ_ВыполненныеКлиентуРаботыОбороты.Договор</query>
+	ВКМ_ВыполненныеКлиентуРаботыОбороты.Договор
+</query>
 	</dataSet>
 	<parameter>
 		<name>Период</name>
@@ -90,40 +90,6 @@
 			</v8:DateQualifiers>
 		</valueType>
 		<useRestriction>false</useRestriction>
-		<expression>&amp;Период.ДатаНачала</expression>
-	</parameter>
-	<parameter>
-		<name>ДатаОкончания</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Дата окончания</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type>xs:dateTime</v8:Type>
-			<v8:DateQualifiers>
-				<v8:DateFractions>DateTime</v8:DateFractions>
-			</v8:DateQualifiers>
-		</valueType>
-		<useRestriction>true</useRestriction>
-		<expression>&amp;Период.ДатаОкончания</expression>
-	</parameter>
-	<parameter>
-		<name>ДатаНачала</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Дата начала</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type>xs:dateTime</v8:Type>
-			<v8:DateQualifiers>
-				<v8:DateFractions>DateTime</v8:DateFractions>
-			</v8:DateQualifiers>
-		</valueType>
-		<useRestriction>true</useRestriction>
 		<expression>&amp;Период.ДатаНачала</expression>
 	</parameter>
 	<parameter>
@@ -163,7 +129,7 @@
 					<dcsset:field>СуммаКОплате</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>СуммаДокумента</dcsset:field>
+					<dcsset:field>ФактическаяСумма</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>

@@ -16,6 +16,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <periodicity>Month</periodicity>
+  <basePeriod>true</basePeriod>
   <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</chartOfCalculationTypes>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="40942167-2990-41da-b47a-66a475458d94">
@@ -47,6 +48,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <baseDimension>true</baseDimension>
   </dimensions>
   <dimensions uuid="ad3ae1a3-38c1-4c15-92a2-4abe735223c4">
     <name>Подразделение</name>
@@ -60,5 +62,6 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <baseDimension>true</baseDimension>
   </dimensions>
 </mdclass:CalculationRegister>
